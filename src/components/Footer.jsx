@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className=" text-white py-4 text-center h-[10%]">
       <div className="flex justify-center items-center">
-        <span className="mr-2 text-xl">
+        <span className="mr-2 text-xl font-bold">
           Made with
           <span
             role="img"
@@ -14,13 +14,13 @@ const Footer = () => {
             ❤️
           </span>
         </span>
-        <span className="text-xl">
+        <span className="text-xl font-bold">
           by{" "}
           <a
             href="https://www.linkedin.com/in/konain-raza"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-400 hover:underline text-xl transition duration-300 transform hover:scale-105"
+            className="text-blue-400 font-bold hover:underline text-xl transition duration-300 transform hover:scale-105"
           >
             Konain Raza
           </a>
