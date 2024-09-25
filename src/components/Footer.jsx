@@ -17,7 +17,7 @@ const Footer = () => {
         <span className="text-xl font-bold">
           by{" "}
           <a
-            href="https://www.linkedin.com/in/konain-raza"
+            href="https://www.linkedin.com/in/konain-raza-"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 font-bold hover:underline text-xl transition duration-300 transform hover:scale-105"
