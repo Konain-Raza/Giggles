@@ -59,7 +59,7 @@ const App = () => {
         ? `${
             import.meta.env.VITE_JOKE_API
           }?type=single&category=${selectedCategory}`
-        : `${import.meta.env.VITE_JOKE_API}?type=single`;
+        : `${import.meta.env.VITE_JOKE_API}?blacklistFlags=religious,sexist&type=single`;
 
       const response = await axios.get(url);
       setJoke(response.data.joke);
